@@ -15,21 +15,28 @@ A localized, multithreaded DNS Server built in Java with a Swing GUI dashboard t
 * **Networking Layer:** UDP Datagram Sockets, `iptables` NAT Tables, `systemd-resolved` engine
 * **GUI Engine:** Java Swing
 
-## 📦 Installation & Execution
-
-Ensure your runtime environment uses Linux (Ubuntu/Debian supported) and has Java 21+ installed along with Maven capabilities.
-
-1. Clone and compile the binary layout:
-   ```bash
-   mvn clean package
-   ```
-
-2. Run the deployment automation wrapper with root privileges:
+## 📦 Quick Start (Run Pre-compiled Release)
+If you don't want to build from source code, you can run the application directly:
+1. Navigate to the **Releases** tab on this repository and download the `JavaDNSAdBlocker-1.0-SNAPSHOT-jar-with-dependencies.jar` along with the `start-adblocker.sh` script into the same folder.
+2. Open a terminal in that directory and execute:
    ```bash
    chmod +x start-adblocker.sh
-   ```
-   ```bash
-   ./start-adblocker.sh
-   ```
+   sudo ./start-adblocker.sh
+
+## ⚙️ Build & Run from Source Code
+Ensure your runtime environment uses Linux (Ubuntu/Debian supported) and has Java 21+ installed along with Maven capabilities.
+
+Clone and compile the binary layout:
+```bash
+mvn clean package
+```
+
+Run the deployment automation wrapper with root privileges:
+```bash
+chmod +x start-adblocker.sh
+```
+```bash
+sudo ./start-adblocker.sh
+```
 
 You officially have a bulletproof repository ready for your resume. Incredible job finishing this build!
