@@ -21,8 +21,11 @@ If you don't want to build from source code, you can run the application directl
 2. Open a terminal in that directory and execute:
    ```bash
    chmod +x start-adblocker.sh
+   ```
+   ```bash
    sudo ./start-adblocker.sh
-
+   ```
+   
 ## ⚙️ Build & Run from Source Code
 Ensure your runtime environment uses Linux (Ubuntu/Debian supported) and has Java 21+ installed along with Maven capabilities.
 
