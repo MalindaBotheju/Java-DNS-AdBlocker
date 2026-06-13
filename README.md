@@ -20,15 +20,16 @@ A localized, multithreaded DNS Server built in Java with a Swing GUI dashboard t
 Ensure your runtime environment uses Linux (Ubuntu/Debian supported) and has Java 21+ installed along with Maven capabilities.
 
 1. Clone and compile the binary layout:
-```bash
-mvn clean package
-```
+   ```bash
+   mvn clean package
+   ```
 
-2. Run the deployment automation wrapper (requires root networking permissions):
-
-```bash
-chmod +x start-adblocker.sh
-./start-adblocker.sh
-```
+2. Run the deployment automation wrapper with root privileges:
+   ```bash
+   chmod +x start-adblocker.sh
+   ```
+   ```bash
+   ./start-adblocker.sh
+   ```
 
 You officially have a bulletproof repository ready for your resume. Incredible job finishing this build!
